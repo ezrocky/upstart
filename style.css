@@ -1,0 +1,9 @@
+ul {
+	text-align: center;
+	list-style-type: none;
+	display: inline;
+}
+
+ul li {
+	display: inline-block;
+}

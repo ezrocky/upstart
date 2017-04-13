@@ -1,0 +1,87 @@
+@import url(/project1/css/content.css);
+@import url(/project1/css/adapt.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Athiti', sans-serif;
+    background-color: #F0F8FF !important;
+}
+
+.main {
+    padding: 10px 10px;
+    position: fixed;
+    text-transform: uppercase;
+}
+
+ul.nav.navbar-nav.navbar-left {
+    padding: 0;
+    font-family: 'Athiti', sans-serif;
+    font-size: 20px;
+    float: none !important;
+    text-align: center;
+}
+
+ul.nav.navbar-nav.navbar-left li {
+    padding-left: 10px;
+    float: none;
+    display: inline-block;
+}
+
+.icons {
+    height: 50px;
+    margin-top: -55px !important;
+}
+
+.header1 {
+    background-image: url(/project1/images/keyboard-computer-keys-white.jpg);
+    height: 890px;
+    width: 1915px;
+    max-width: 100%;
+    margin-top: -20px;
+    border-top: 2px solid #757575;
+    border-bottom: 2px solid #757575;
+}
+
+.header2 {
+    margin-top: 100px;
+    height: 400px;
+}
+
+.header1 .col-md-12 {
+    margin-top: 290px;
+    text-align: center;
+}
+
+.header1 h1 {
+    font-size: 80px;
+}
+
+.header1 h2 {
+    font-size: 40px;
+    font-family: 'Athiti', sans-serif;
+}
+
+.col-md-4 {
+    font-family: 'Athiti', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+
+.header3 {
+    height: 750px;
+    background-image: url(/project1/images/bg-grey.jpg);
+    font-size: 15px;
+    border-top: 2px solid #757575;
+    border-bottom: 2px solid #757575;
+}
+
+.jumbotron {
+    margin-top: 70px;
+}
+
+.header3 .row {
+    text-align: center;
+    font-family: 'Athiti', sans-serif;
+}

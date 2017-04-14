@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Главная страница</title>
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/content.css">
+	<link rel="stylesheet" href="styles/footer.css">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -19,16 +21,33 @@
   </head>
   <body>
     <div class="wrapper">
-    	<div class="container">
+    	<div class="header">
+	    	<div class="container">
+		    		<div class="row">
+		    			<ul class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 ">
+		    				<li><a href="#">Про нас</a></li>
+		    				<li><a href="#">Помочь проекту</a></li>
+		    				<li><a href="#">Ваши пожелания</a></li>
+		    			</ul>
+		    		</div>
+	    		</div>
+	    	</div>
+	    <div class="container">
     		<div class="row">
-    			<ul>
-    				<li><a href="#">Про нас</a></li>
-    				<li><a href="#">Помочь проекту</a></li>
-    				<li><a href="#">Ваши пожелания</a></li>
-    			</ul>
-    		</div>
-    	</div>
-    </div>
+    			<div class="col-lg-6 col-lg-offset-3">
+		    		<div class="buttons">
+			    			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">		
+					    		<button>Оценить фотографию</button>
+					    	</div>
+					    	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">	
+					    		<button>Загрузить фотографию</button>
+					    	</div>
+		    		</div>
+		    	</div>
+	    	</div>
+	    </div>	
+   	</div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
